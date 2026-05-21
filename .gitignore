@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Claude Code local overrides
+.claude/settings.local.json
+
+# Eval outputs
+evals/**/results/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log

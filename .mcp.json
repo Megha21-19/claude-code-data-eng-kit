@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "databricks-mini": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "databricks_mini.server"],
+      "env": {
+        "DATABRICKS_HOST": "${DATABRICKS_HOST}",
+        "DATABRICKS_TOKEN": "${DATABRICKS_TOKEN}"
+      }
+    }
+  }
+}
